@@ -5,14 +5,14 @@ This is program scans items in your arcane legends inventory and lists them to a
 python inventory.py [output file] [tradable]
 ```
 if tradable argument is omitted or is not "tradable", all items will be listed.\
-if output file argument is omitted, default output file is "itemlist.txt"\
+if output file argument is omitted, default output file is "itemlist.txt"
 ## How it works
 AL inventory consists of 3 pages: Equipment, Vanities and Other.\
 These pages have some item types in them, for example in Equipment there are weapons or helmets etc.\
 These types have count numbers displayed at their places.\
-In short, the program looks at counts of each type, then loops through all of the items of that type, scans the area with the item name with Tesseract and jumps to next item either by mouse move or scroll.\
+In short, the program looks at counts of each type, then loops through all of the items of that type, scans the area with the item name with Tesseract and jumps to next item either by mouse move or scroll.
 ## Disclaimer
-I don't recommend trying to make it work on your own screen but you are free to try at your own risk.\
+I don't recommend trying to make it work on your own screen but you are free to try at your own risk.
 ## How to make it work
 First of all you need to install python, tesseract\
 then also pip install pytesserect, pyautogui, opencv-python\
