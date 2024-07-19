@@ -36,3 +36,4 @@ item_width is width of item text area\
 item_height is height of item text area\
 item_y_difference is gap between each items from 1 roof of item area to next roof\
 if you get all these right it should probably work, but I have not tested it on different screen.\
+Use the scheme few images above
