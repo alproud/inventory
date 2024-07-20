@@ -11,7 +11,7 @@ if output file argument is omitted, default output file is "itemlist.txt"\
 AL inventory consists of 3 pages: Equipment, Vanities and Other.\
 These pages have some item types in them, for example in Equipment there are weapons or helmets etc.\
 These types have count numbers displayed at their places.\
-In short, the program looks at counts of each type, then loops through all of the items of that type, scans the area with the item name with Tesseract and jumps to next item either by mouse move or scroll.
+In short, the program looks at counts of each type, then loops through all of the items of that type, scans the area with the item name with Tesseract and jumps to next item either by moving scanning area to next row or scrolling.
 ## Disclaimer
 I don't recommend trying to make it work on your own screen unless you have exact same screen loadout as I do. However you are free to try at your own risk.
 ## How to make it work
