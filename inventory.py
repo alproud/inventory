@@ -198,7 +198,7 @@ def scan_counts(index, page):
             c["x"] + s["w"],
             c["y"] + s["h"],
             True,
-            f"images/{index * 8 + i}-{type['name']}.png",
+            f"images/{(index * 8 + i):02}-{type['name']}.png",
         ).strip()
         if recognized == "":
             recognized = "0"
